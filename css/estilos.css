@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*Configuracion REM*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem; /*Configuracion REM*/
+    background-color: #fec356;
+}
+
+p{
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
+
+.contenedor{
+    background-color: white;
+    margin: 0 auto;
+    width: 120rem;
+}
+
+.contenido-principal{
+    display: flex;
+    padding: 0 4rem;
+}
+
+.menu{
+    border: solid .1rem;
+    width: 20rem;
+}
+
+.menu h3{
+    margin: 0;
+    padding: 1rem 1.5rem;
+    border-bottom: solid .1rem;
+}
+
+.menu ol li {
+    margin-top: 1rem;
+}
